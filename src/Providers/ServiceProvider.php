@@ -1,8 +1,8 @@
 <?php
 
-namespace Denpa\Bitcoin\Providers;
+namespace Gegosoft\Bitcoin\Providers;
 
-use Denpa\Bitcoin\Client as BitcoinClient;
+use Gegosoft\Bitcoin\Client as BitcoinClient;
 use Illuminate\Support\ServiceProvider as IlluminateServiceProvider;
 
 class ServiceProvider extends IlluminateServiceProvider
@@ -40,7 +40,7 @@ class ServiceProvider extends IlluminateServiceProvider
     protected function registerAliases()
     {
         $aliases = [
-            'bitcoind' => 'Denpa\Bitcoin\Client',
+            'bitcoind' => 'Gegosoft\Bitcoin\Client',
         ];
 
         foreach ($aliases as $key => $aliases) {

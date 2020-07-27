@@ -1,8 +1,8 @@
 <?php
 
 use Orchestra\Testbench\TestCase;
-use Denpa\Bitcoin\Traits\Bitcoind;
-use Denpa\Bitcoin\Client as BitcoinClient;
+use Gegosoft\Bitcoin\Traits\Bitcoind;
+use Gegosoft\Bitcoin\Client as BitcoinClient;
 
 class BitcoindTest extends TestCase
 {
@@ -18,7 +18,7 @@ class BitcoindTest extends TestCase
     protected function getPackageProviders($app)
     {
         return [
-            \Denpa\Bitcoin\Providers\ServiceProvider::class,
+            \Gegosoft\Bitcoin\Providers\ServiceProvider::class,
         ];
     }
 
@@ -32,7 +32,7 @@ class BitcoindTest extends TestCase
     protected function getPackageAliases($app)
     {
         return [
-            'Bitcoind' => 'Denpa\Bitcoin\Facades\Bitcoind',
+            'Bitcoind' => 'Gegosoft\Bitcoin\Facades\Bitcoind',
         ];
     }
 

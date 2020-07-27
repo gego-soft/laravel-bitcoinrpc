@@ -1,6 +1,6 @@
 <?php
 
-namespace Denpa\Bitcoin\Traits;
+namespace Gegosoft\Bitcoin\Traits;
 
 trait Bitcoind
 {

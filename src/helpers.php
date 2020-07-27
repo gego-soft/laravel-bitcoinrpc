@@ -4,7 +4,7 @@ if (! function_exists('bitcoind')) {
     /**
      * Get bitcoind client instance.
      *
-     * @return \Denpa\Bitcoin\Client
+     * @return \Gegosoft\Bitcoin\Client
      */
     function bitcoind()
     {

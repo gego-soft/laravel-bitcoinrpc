@@ -1,6 +1,6 @@
 <?php
 
-namespace Denpa\Bitcoin\Facades;
+namespace Gegosoft\Bitcoin\Facades;
 
 use Illuminate\Support\Facades\Facade;
 
